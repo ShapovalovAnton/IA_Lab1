@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="700" prefWidth="1200" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+    <children>
+      <Pane layoutY="-9.0" prefHeight="600.0" prefWidth="1200">
+         <children>
+              <Circle fx:id="circle1" fill="WHITE" layoutX="87.0" layoutY="290.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text layoutX="81.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+             <Circle fx:id="circle2" fill="WHITE" layoutX="307.0" layoutY="61.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="301.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle3" fill="WHITE" layoutX="307.0" layoutY="215.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="301.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle4" fill="WHITE" layoutX="307.0" layoutY="371.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="301.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle5" fill="WHITE" layoutX="307.0" layoutY="511.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="301.0" layoutY="519.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle6" fill="WHITE" layoutX="574.0" layoutY="61.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="568.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle7" fill="WHITE" layoutX="574.0" layoutY="215.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="568.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle8" fill="WHITE" layoutX="574.0" layoutY="371.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="568.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle9" fill="WHITE" layoutX="574.0" layoutY="511.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="568.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle10" fill="WHITE" layoutX="835.0" layoutY="61.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="822.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle11" fill="WHITE" layoutX="835.0" layoutY="215.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="822.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle12" fill="WHITE" layoutX="835.0" layoutY="371.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="822.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle13" fill="WHITE" layoutX="835.0" layoutY="511.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="822.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Circle fx:id="circle14" fill="WHITE" layoutX="1092.0" layoutY="290.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+             <Text layoutX="1079.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line1_2" endX="168.0" endY="-220.8000030517578" layoutX="113.0" layoutY="290.0" startX="-1.52587890625E-5" />
+             <Text fx:id="text1_2" layoutX="174.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line1_3" endX="29.707122802734375" endY="-92.80000305175781" layoutX="252.0" layoutY="316.0" startX="-139.00001525878906" startY="-26.0" />
+             <Text fx:id="text1_3" layoutX="184.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line1_4" endX="99.0" endY="-15.0" layoutX="182.0" layoutY="386.0" startX="-69.00001525878906" startY="-95.29287719726562" />
+             <Text fx:id="text1_4" layoutX="197.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line1_5" endX="168.0" endY="221.0" layoutX="113.0" layoutY="290.0" startX="-1.52587890625E-5" />
+             <Text fx:id="text1_5" layoutX="180.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line2_6" endX="68.0" endY="-87.0" layoutX="480.0" layoutY="148.0" startX="-147.0" startY="-87.0" />
+             <Text fx:id="text2_6" layoutX="412.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+             <Line fx:id="line3_2" endX="-54.0" endY="-52.0" layoutX="361.0" layoutY="139.0" startX="-54.0" startY="50.0" />
+             <Text fx:id="text3_2" layoutX="314.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line3_6" endX="173.0" endY="-122.5999984741211" layoutX="382.0" layoutY="198.0" startX="-49.0" startY="17.0" />
+             <Text fx:id="text3_6" layoutX="399.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line6_10" endX="209.0" endY="-0.9999961853027344" layoutX="600.0" layoutY="62.0" startY="-0.9999961853027344" />
+             <Text fx:id="text6_10" layoutX="670.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line3_10" endX="348.0" endY="-211.60000610351562" layoutX="467.0" layoutY="287.0" startX="-134.70709228515625" startY="-71.29289245605469" />
+             <Text fx:id="text3_10" layoutX="562.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line3_7" endX="140.0" endY="-85.0" layoutX="408.0" layoutY="300.0" startX="-75.0" startY="-85.0" />
+             <Text fx:id="text3_7" layoutX="468.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line3_8" endX="120.0" endY="52.0" layoutX="434.0" layoutY="305.0" startX="-101.0" startY="-90.0" />
+             <Text fx:id="text3_8" layoutX="462.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line4_3" endY="-104.00001525878906" layoutX="307.0" layoutY="345.0" />
+             <Text fx:id="text4_3" layoutX="314.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line4_8" endX="215.0" layoutX="333.0" layoutY="372.0" />
+             <Text fx:id="text4_8" layoutX="431.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line4_9" endX="174.0" endY="56.0" layoutX="383.0" layoutY="435.0" startX="-50.5" startY="-62.5" />
+             <Text fx:id="text4_9" layoutX="462.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line5_9" endX="108.70709228515625" endY="1.70709228515625" layoutX="440.0" layoutY="510.0" startX="-107.0" startY="1.0" />
+             <Text fx:id="text5_9" layoutX="406.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line7_10" endX="166.0" endY="-186.0" layoutX="669.0" layoutY="273.0" startX="-69.0" startY="-58.0" />
+             <Text fx:id="text7_10" layoutX="689.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line7_11" endX="105.20709228515625" endY="-100.29289245605469" layoutX="705.0" layoutY="316.0" startX="-105.70709228515625" startY="-100.29289245605469" />
+             <Text fx:id="text7_11" layoutX="709.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line7_14" endX="356.0" endY="4.79998779296875" layoutX="710.0" layoutY="291.0" startX="-111.20709228515625" startY="-74.79289245605469" />
+             <Text fx:id="text7_14" layoutX="783.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line7_8" endX="-136.0" endY="29.0" layoutX="710.0" layoutY="316.0" startX="-136.0" startY="-75.00001525878906" />
+             <Text fx:id="text7_8" layoutX="581.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line8_12" endX="110.0" endY="-1.0" layoutX="699.0" layoutY="372.0" startX="-100.0" />
+             <Text fx:id="text8_12" layoutX="683.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line8_13" endX="110.0" endY="53.0" layoutX="705.0" layoutY="442.0" startX="-106.70709228515625" startY="-69.29287719726562" />
+             <Text fx:id="text8_13" layoutX="715.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line9_13" endX="110.0" endY="-1.0" layoutX="699.0" layoutY="512.0" startX="-100.0" />
+             <Text fx:id="text9_13" layoutX="657.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line10_14" endX="101.0" endY="108.1015625" layoutX="978.0" layoutY="164.0" startX="-117.00006103515625" startY="-103.0" />
+             <Text fx:id="text10_14" layoutX="972.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line11_14" endX="143.0" endY="-34.20001220703125" layoutX="923.0" layoutY="316.0" startX="-62.00006103515625" startY="-101.0" />
+             <Text fx:id="text11_14" layoutX="940.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line12_14" endX="190.70703125" endY="-125.60711669921875" layoutX="882.0" layoutY="434.0" startX="-21.00006103515625" startY="-63.0" />
+             <Text fx:id="text12_14" layoutX="914.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Line fx:id="line13_14" endX="189.0" endY="-126.0" layoutX="894.0" layoutY="442.0" startX="-33.00006103515625" startY="69.0" />
+             <Text fx:id="text13_14" layoutX="908.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Text>
+            <Text fx:id="textCircle1" layoutX="65.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (1)">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+             <Text fx:id="textCircle2" layoutX="289.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (2)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle3" layoutX="263.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (3)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle4" layoutX="264.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (4)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle5" layoutX="289.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (5)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle6" layoutX="557.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (6)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle7" layoutX="553.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (7)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle8" layoutX="582.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (8)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle9" layoutX="557.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (9)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle10" layoutX="812.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (10)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle11" layoutX="812.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (11)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle12" layoutX="812.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (12)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle13" layoutX="812.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (13)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+             <Text fx:id="textCircle14" layoutX="1069.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="∞ (14)">
+                 <font>
+                     <Font size="16.0" />
+                 </font>
+             </Text>
+            <Polyline fx:id="arrow1_2" fill="#898484" layoutX="112.0" layoutY="125.0" points="147.79998779296875, -48.80000305175781, 169.0, -38.0, 169.70709228515625, -56.507110595703125, 147.79998779296875, -48.80000305175781" strokeType="INSIDE" />
+             <Polyline fx:id="arrow1_3" fill="#898484" layoutX="111.0" layoutY="277.0" points="155.0, -56.507110595703125, 163.0, -37.0, 171.41424560546875, -54.507110595703125, 155.0, -56.507110595703125" strokeType="INSIDE" />
+             <Polyline fx:id="arrow1_4" fill="#898484" layoutX="111.0" layoutY="427.0" points="163.0, -71.20001220703125, 152.0, -55.29290771484375, 169.70709228515625, -56.507110595703125, 163.0, -71.20001220703125" strokeType="INSIDE" />
+             <Polyline fx:id="arrow3_8" fill="#898484" layoutX="381.0" layoutY="400.0" points="167.0, -55.0, 154.0, -42.29290771484375, 173.70709228515625, -42.29290771484375, 167.0, -55.0" strokeType="INSIDE" />
+             <Polyline fx:id="arrow3_7" fill="#898484" layoutX="386.0" layoutY="272.0" points="154.0, -70.0, 154.0, -43.0, 169.70709228515625, -56.507110595703125, 154.0, -70.0" strokeType="INSIDE" />
+             <Polyline fx:id="arrow3_10" fill="#898484" layoutX="650.0" layoutY="132.0" points="150.0, -56.507110595703125, 159.0, -45.0, 169.70709228515625, -56.507110595703125, 150.0, -56.507110595703125" strokeType="INSIDE" />
+             <Polyline fx:id="arrow3_6" fill="#898484" layoutX="388.0" layoutY="134.0" points="150.853515625, -64.5999984741211, 161.0, -40.0, 169.70709228515625, -56.507110595703125, 150.853515625, -64.5999984741211" strokeType="INSIDE" />
+             <Polyline fx:id="arrow3_2" fill="#898484" layoutX="139.0" layoutY="143.0" points="155.0, -34.0, 180.0, -34.0, 169.70709228515625, -56.507110595703125, 155.0, -34.0" strokeType="INSIDE" />
+             <Polyline fx:id="arrow2_6" fill="#898484" layoutX="378.0" layoutY="116.0" points="152.0, -70.5999984741211, 152.0, -46.599998474121094, 169.70709228515625, -56.507110595703125, 152.0, -70.5999984741211" strokeType="INSIDE" />
+             <Polyline fx:id="arrow1_5" fill="#898484" layoutX="113.0" layoutY="566.0" points="169.70709228515625, -74.79998779296875, 150.79998779296875, -56.507080078125, 169.70709228515625, -56.507110595703125, 169.70709228515625, -74.79998779296875" strokeType="INSIDE" />
+             <Polyline fx:id="arrow7_8" fill="#898484" layoutX="403.0" layoutY="384.0" points="156.0, -56.507110595703125, 169.0, -38.0, 179.0, -56.507110595703125, 156.0, -56.507110595703125" strokeType="INSIDE" />
+             <Polyline fx:id="arrow7_14" fill="#898484" layoutX="898.0" layoutY="350.0" points="159.0, -67.492919921875, 159.0, -45.70709228515625, 169.70709228515625, -56.507110595703125, 159.0, -67.492919921875" strokeType="INSIDE" />
+             <Polyline fx:id="arrow7_11" fill="#898484" layoutX="641.0" layoutY="270.0" points="159.0, -70.0, 159.0, -41.0, 169.70709228515625, -56.507110595703125, 159.0, -70.0" strokeType="INSIDE" />
+             <Polyline fx:id="arrow7_10" fill="#898484" layoutX="660.0" layoutY="141.0" points="147.79998779296875, -45.599998474121094, 155.70709228515625, -31.599998474121094, 175.0, -54.0, 147.79998779296875, -45.599998474121094" strokeType="INSIDE" />
+             <Polyline fx:id="arrow4_3" fill="#898484" layoutX="139.0" layoutY="294.0" points="154.0, -42.80000305175781, 182.0, -42.80000305175781, 169.70709228515625, -56.507110595703125, 154.0, -42.80000305175781" strokeType="INSIDE" />
+             <Polyline fx:id="arrow6_10" fill="#898484" layoutX="637.0" layoutY="93.0" points="161.0, -25.400001525878906, 172.5, -32.499996185302734, 161.0, -43.400001525878906, 161.0, -25.400001525878906" strokeType="INSIDE" />
+             <Polyline fx:id="arrow5_9" fill="#898484" layoutX="379.0" layoutY="566.0" points="156.0, -67.20001220703125, 156.0, -42.20001220703125, 169.70709228515625, -56.507110595703125, 156.0, -67.20001220703125" strokeType="INSIDE" />
+             <Polyline fx:id="arrow4_9" fill="#898484" layoutX="378.0" layoutY="523.0" points="172.0, -48.0, 160.0, -31.29290771484375, 179.70709228515625, -31.29290771484375, 172.0, -48.0" strokeType="INSIDE" />
+             <Polyline fx:id="arrow4_8" fill="#898484" layoutX="380.0" layoutY="426.0" points="155.0, -68.29290771484375, 155.0, -42.0, 169.70709228515625, -56.507110595703125, 155.0, -68.29290771484375" strokeType="INSIDE" />
+             <Polyline fx:id="arrow13_14" fill="#898484" layoutX="914.0" layoutY="369.0" points="147.79998779296875, -48.80000305175781, 169.0, -38.0, 169.70709228515625, -56.507110595703125, 147.79998779296875, -48.80000305175781" strokeType="INSIDE" />
+             <Polyline fx:id="arrow12_14" fill="#898484" layoutX="903.0" layoutY="365.0" points="147.800048828125, -56.507110595703125, 157.0, -42.70709228515625, 169.70709228515625, -56.507110595703125, 147.800048828125, -56.507110595703125" strokeType="INSIDE" />
+             <Polyline fx:id="arrow11_14" fill="#898484" layoutX="903.0" layoutY="320.0" points="148.0, -38.0, 169.0, -38.0, 154.800048828125, -55.9921875, 148.0, -38.0" strokeType="INSIDE" />
+             <Polyline fx:id="arrow10_14" fill="#898484" layoutX="910.0" layoutY="311.0" points="147.800048828125, -47.0, 169.0, -38.0, 159.0, -55.984375, 147.800048828125, -47.0" strokeType="INSIDE" />
+             <Polyline fx:id="arrow9_13" fill="#898484" layoutX="639.0" layoutY="560.0" points="157.79998779296875, -59.0, 157.79998779296875, -39.0, 170.70709228515625, -47.29290771484375, 157.79998779296875, -59.0" strokeType="INSIDE" />
+             <Polyline fx:id="arrow8_13" fill="#898484" layoutX="649.0" layoutY="539.0" points="147.79998779296875, -38.0, 169.0, -38.0, 160.0, -57.0, 147.79998779296875, -38.0" strokeType="INSIDE" />
+             <Polyline fx:id="arrow8_12" fill="#898484" layoutX="635.0" layoutY="420.0" points="158.0, -62.399993896484375, 158.0, -36.399993896484375, 174.0, -49.0, 158.0, -62.399993896484375" strokeType="INSIDE" />
+
+         </children>
+      </Pane>
+      <StackPane layoutX="-1.0" layoutY="582.0" prefHeight="118.0" prefWidth="1200.0">
+         <children>
+            <Pane fx:id="KruskalPane" prefHeight="118.0" prefWidth="1195.0" visible="false">
+               <children>
+                  <Button fx:id="KruskalPaneReturn" layoutX="125.0" layoutY="33.0" mnemonicParsing="false" onAction="#onKruskalPaneReturnClick" prefHeight="52.0" prefWidth="125.0" text="Повернутись">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="KruskalPaneNext" layoutX="501.0" layoutY="33.0" mnemonicParsing="false" onAction="#onKruskalPaneNextClick" prefHeight="52.0" prefWidth="199.0" text="Наступний крок">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="KruskalPaneResult" layoutX="932.0" layoutY="33.0" mnemonicParsing="false" onAction="#onKruskalPaneResultClick" prefHeight="52.0" prefWidth="199.0" text="Результат">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Button>
+               </children>
+            </Pane>
+             <Pane fx:id="DijkstraPane" prefHeight="118.0" prefWidth="1195.0" visible="false">
+                 <children>
+                     <Button fx:id="DijkstraPaneReturn" layoutX="125.0" layoutY="33.0" mnemonicParsing="false" onAction="#onDijkstraPaneReturnClick" prefHeight="52.0" prefWidth="125.0" text="Повернутись">
+                         <font>
+                             <Font size="16.0" />
+                         </font></Button>
+                     <Button fx:id="DijkstraPaneNext" layoutX="501.0" layoutY="33.0" mnemonicParsing="false" onAction="#onDijkstraPaneNextClick" prefHeight="52.0" prefWidth="199.0" text="Наступний крок">
+                         <font>
+                             <Font size="16.0" />
+                         </font></Button>
+                     <Button fx:id="DijkstraPaneResult" layoutX="932.0" layoutY="33.0" mnemonicParsing="false" onAction="#onDijkstraPaneResultClick" prefHeight="52.0" prefWidth="199.0" text="Результат">
+                         <font>
+                             <Font size="17.0" />
+                         </font></Button>
+                 </children>
+             </Pane>
+             <Pane fx:id="BFSPane" prefHeight="118.0" prefWidth="1195.0" visible="false">
+                 <children>
+                     <Button fx:id="BFSPaneReturn" layoutX="125.0" layoutY="33.0" mnemonicParsing="false" onAction="#onBFSPaneReturnClick" prefHeight="52.0" prefWidth="125.0" text="Повернутись">
+                         <font>
+                             <Font size="16.0" />
+                         </font></Button>
+                     <Button fx:id="BFSPaneNext" layoutX="501.0" layoutY="33.0" mnemonicParsing="false" onAction="#onBFSPaneNextClick" prefHeight="52.0" prefWidth="199.0" text="Наступний крок">
+                         <font>
+                             <Font size="16.0" />
+                         </font></Button>
+                     <Button fx:id="BFSPaneResult" layoutX="932.0" layoutY="33.0" mnemonicParsing="false" onAction="#onBFSPaneResultClick" prefHeight="52.0" prefWidth="199.0" text="Результат">
+                         <font>
+                             <Font size="17.0" />
+                         </font></Button>
+                 </children>
+             </Pane>
+            <Pane fx:id="StartPane" prefHeight="125.0" prefWidth="1200.0">
+               <children>
+                  <Button layoutX="788.0" layoutY="25.0" mnemonicParsing="false" onAction="#onBFSButtonClick" prefHeight="68.0" prefWidth="227.0" text="Метод пошуку в ширину">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="KruskalButton" layoutX="177.0" layoutY="25.0" mnemonicParsing="false" onAction="#onKruskalButtonClick" prefHeight="68.0" prefWidth="227.0" text="Метод Крускала">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button layoutX="487.0" layoutY="25.0" mnemonicParsing="false" onAction="#onDijkstraButtonClick" prefHeight="68.0" prefWidth="227.0" text="Метод Дейкстри">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </StackPane>
+    </children>
+</Pane>
